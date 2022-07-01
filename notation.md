@@ -3,7 +3,7 @@
 The following comes from:
 Pages 10 - 20
 
-One place for all the notation AND definitions found in this book.
+Some notation from the intro of the book. 
 
 ## Set Notation
 
