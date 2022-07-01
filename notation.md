@@ -1,5 +1,8 @@
 # One-Stop Notation Shop
 
+The following comes from:
+Pages 10 - 20
+
 One place for all the notation AND definitions found in this book.
 
 ## Set Notation
@@ -11,7 +14,7 @@ set = { 50, 1.4, 9903, 332 }
 Sets are denoted as { e1, ..., en } with curly brackets. 
 
 Set Belonging is denoted with an Epsilon:\
-![Screenshot 2022-06-30 173845](https://user-images.githubusercontent.com/76256852/176782950-50c5958b-bafc-4ffd-b6fe-a48330be3155.png)
+![Epsilon for Set Example](https://user-images.githubusercontent.com/76256852/176782950-50c5958b-bafc-4ffd-b6fe-a48330be3155.png)
 
 The special set R denotes a set of all numbers -inf to +inf.
 
@@ -32,4 +35,39 @@ Set Intersections are denoted with upside down " U " and perform like this:
 The result is every element that does not exist in both sets. 
 
 ## Capital Sigma Notation
+Often used to indicate a _Summation_. Not as complex as it seems, its basically just a for loop.\
+![Capital Sigma Notation Example](https://github.com/RylanYancey/RylanYancey/blob/main/rust-docs-images/Screenshot_20220701_090517.png)\
+Read this as: 
+```cpp
+for (int n = 1; n <= 6; n++) { output += n * 4; }
+```
+
+## Capital PI Notation
+Just like the Capital Sigma, but indicates the product instead of a summation over elements.\
+![Capital PI Notation Example](https://github.com/RylanYancey/RylanYancey/blob/main/rust-docs-images/Screenshot_20220701_091610.png)\
+Read this as:
+```cpp
+for (int i = 1; i <= 10; i++) { output *= i; }
+```
+
+## Operations on Sets
+Consider this notation:
+```S <- { x^2 | x E S, x > 3 }```
+Read this as:
+Set S is equal to every element that belongs to set S, if x is greater than 3, squared. 
+
+|S| is the cardinality operator, and returns the number of elements in S. 
+
+## Max and Arg Max
+The notation:
+maxaEAf(a) returns the highest value f(a) for all elements in set A. 
+argmaxaEAf(a) returns the element of the set that maximized f(a)
+
+min and arg min are similar.
+
+## Assignment Operator
+-> assigns
+
+##
+
 
